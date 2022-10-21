@@ -1,0 +1,36 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  font-size: 5rem;
+  z-index: 7;
+  color: aliceblue;
+  cursor: pointer;
+}
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  font-size: 5rem;
+  z-index: 7;
+  color: aliceblue;
+  cursor: pointer;
+}
+.slide {
+  opacity: 0;
+}
+.slide.active {
+  opacity: 1;
+}
+.image {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
